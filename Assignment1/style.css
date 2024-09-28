@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1{
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+header img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
+/* Main Content Styles */
+main {
+    background: linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(210,55,158,0.6685267857142857) 36%, rgba(134,45,180,0.7553615196078431) 100%);
+    }
+
+.song{
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.song:nth-child(1){
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12em;
+}
+
+.song:nth-child(6){
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12em;
+}
+
+.song:last-child{
+    margin: 0;
+}
+
+.song img{
+    height: 20em;
+}
+
+.song h2{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 2em;
+    color: #282828;
+    margin-bottom: 1em;
+}
+
+.song p {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2.5em;
+    line-height: 0.7em;
+    font-weight: 700;
+    font-style: normal;
+}
+
+footer {
+    background-color: #282828;
+    color: #fff;
+    text-align: left;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+}
+
+#ABOUT{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  border-bottom: 2px solid white;
+}
+
+#last{
+    display: flex;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 12em;
+}
+
+footer img{
+    height: 15em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#last:nth-last-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+/* background: linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(210,55,158,0.6685267857142857) 36%, rgba(162,75,207,0.7049413515406162) 100%); */
